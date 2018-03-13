@@ -7,9 +7,8 @@ Vue.use(VueRouter);
 Vue.use(VueContentPlaceholders);
 
 import App from './App'
-import Home from './components/Home.vue'
-import Data from './components/Data.vue'
-
+const Home = () => import('./components/Home.vue')
+const Data = () => import('./components/Data.vue')
 const routes = [
   {path:'/',component:Home},
   {path:'/data/:type',component:Data},
