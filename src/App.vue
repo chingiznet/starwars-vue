@@ -4,13 +4,13 @@
       <a class="navbar-brand" href="#">STARTWARS</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <router-link class="nav-item" tag="li" active-class="active" to="/">
+          <router-link class="nav-item" tag="li" active-class="active" to="/" exact>
             <a class="nav-link">Home</a>
           </router-link>
-          <router-link class="nav-item" tag="li" active-class="active" to="/data/people">
+          <router-link class="nav-item" tag="li" active-class="active" to="/data/people" exact>
             <a class="nav-link">Persona</a>
           </router-link>
-          <router-link class="nav-item" tag="li" active-class="active" to="/data/planets">
+          <router-link class="nav-item" tag="li" active-class="active" to="/data/planets" exact>
             <a class="nav-link">Planets</a>
           </router-link>
         </ul>
