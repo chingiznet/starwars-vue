@@ -1,6 +1,6 @@
 {
-  "name": "starbase-router",
-  "description": "A Vue.js project",
+  "name": "startwars-project-vue",
+  "description": "StarWars simple example with fetch and vue-router",
   "version": "1.0.0",
   "author": "Chingiz Mammadov <info@chingiz.net>",
   "license": "MIT",
